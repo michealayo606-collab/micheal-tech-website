@@ -1,0 +1,291 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body> --><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael Tech Enterprises</title>
+    <style>
+        /* Global Styles */
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f6f9;
+            color: #333;
+        }
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+        /* Header */
+        header {
+            background-color: #0d47a1;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            font-weight: bold;
+            color: white;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #ffcc00;
+        }
+        /* Hero Section */
+        .hero {
+            background: url('https://images.unsplash.com/photo-1581092795368-71d7d6d5a5b5?auto=format&fit=crop&w=1350&q=80') center/cover no-repeat;
+            color: white;
+            text-align: center;
+            padding: 120px 20px;
+        }
+        .hero h1 {
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+        .hero .btn {
+            background-color: #ffcc00;
+            color: #0d47a1;
+            padding: 15px 30px;
+            border: none;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .hero .btn:hover {
+            background-color: #e6b800;
+        }
+        /* Sections */
+        section {
+            padding: 60px 20px;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        section h2 {
+            color: #0d47a1;
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 36px;
+        }
+        section p {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto 20px auto;
+            line-height: 1.6;
+        }
+        /* Services */
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .service-card {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            flex: 1 1 250px;
+            max-width: 300px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+        }
+        .service-card h3 {
+            margin-bottom: 15px;
+            color: #0d47a1;
+        }
+        .service-card p {
+            color: #555;
+        }
+        /* Contact */
+        .contact-info {
+            text-align: center;
+            line-height: 2;
+        }
+        /* Footer */
+        footer {
+            background-color: #0d47a1;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 36px;
+            }
+            .hero p {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Michael Tech Enterprises</h1>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<!-- Hero Section -->
+<section class="hero">
+    <h1>Innovating Your Future</h1>
+    <p>We provide cutting-edge technology solutions to grow your business.</p>
+    <button class="btn">Get Started</button>
+</section>
+
+<!-- About Section -->
+<section id="about">
+    <h2>About Us</h2>
+    <p>Michael Tech Enterprises is a leading technology solutions company dedicated to providing innovative software, IT consulting, and digital transformation services to businesses worldwide. Our goal is to empower companies with the latest technologies to achieve success.</p>
+</section>
+
+<!-- Services Section -->
+<section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+        <div class="service-card">
+            <h3>Software Development</h3>
+            <p>Custom software solutions tailored to your business needs, from web apps to mobile applications.</p>
+        </div>
+        <div class="service-card">
+            <h3>IT Consulting</h3>
+            <p>Expert guidance to optimize your IT infrastructure, improve efficiency, and boost productivity.</p>
+        </div>
+        <div class="service-card">
+            <h3>Digital Transformation</h3>
+            <p>Modernize your business processes with cutting-edge technology and innovative strategies.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-info">
+        <p>Email: info@michaeltech.com</p>
+        <p>Phone: +29 55 123 4567</p>
+        <p>Address: 789 Tech Avenue, Innovation City</p>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 Michael Tech Enterprises. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
+
+    <!-- header
+     <header>
+<img src="/lasuth/img/lasuth.jpg" alt="micheal logo">
+ <div>
+                    <a href="home.html">HOME</a>
+                    <a href="about.html">ABOUT</a>
+                    <a href="faculties.html">FACULTIES</a>
+                    <a href="admissions.html">ADMISSIONS</a>
+                
+                </div>
+<!-- <nav>
+    <ul>
+        <li><a href="#">HOME</a></li><br>
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="#">FACILITIES</a></li>
+        <li><a href="#">ADMISSION</a></li>
+        <li><a href="#">CONTACT</a></li>
+    </ul> -->
+<!-- </nav>
+</header>
+<!-- HERO SECTION -->
+ <!-- <section class="hero">
+    <div class="hero-content">
+        <h1> welcome to the university of tertiary healtcare</h1>
+        <p>Empouring and focusing on excellent patient care</p>
+        <a href="#" class="btn">ADDMISSION GOING ON</a>
+
+    </div>
+
+ </section>
+ <!-- about section -->
+  <!-- <section class="about">
+    <h2>ABOUT SECTION</h2>
+    <div class="about-content"> -->
+<!-- <img src="/lasuth/img/lasuth1.jpg" alt="admissions">
+<p> to become a world-class tertiary and quaternary hospital,
+     providing high-quality healthcare to the people of Lagos and Nigeria,s
+      and reducing the need for medical tourism abroad. This is achieved by
+       focusing on excellent patient care, using cutting-edge technology, and -->
+        <!-- investing in its human resources to improve healthcare delivery and outcome. --> --> -->
+
+<!-- </p>
+</div>
+</section>
+<!--news/event  -->
+<!-- <section class="news">
+    <h2>latest news and event</h2>
+    <div class="news-lists">
+        <div class="news-items" >
+            <p>nationwide resident doctors' strike, which has led to canceled appointments and surgres</p>
+            <img src="/lasuth/img/lasuth 2.jpg" alt="news list"> -->
+            <!-- <p>2026 admissions is now available</p> -->
+        <!-- </div>
+        <div class="news-items">
+            <img src="/lasuth/img/lasuth3.png" alt="emerging">
+            <p>lasuth is now emerging to a breater place</p> -->
+        <!-- </div> -->
+        <!-- <div class="news-items">
+            <img src="/lasuth/img/lasuthy 4.jpg" alt="upcoming">
+            <p>lasuth upcoming convocation ceremony - april 3-10 2026</p> --> -->
+
+        <!-- </div>
+    </div>
+</section>
+<!-- falculities -->
+ <!-- <section class="falculties">
+    <h2>OUR FALCULTY</h2>
+    <div class=" faculty-list">
+        <div class="faculty-card">
+            <img src="/lasuth/img/lasuth 5.jpg" alt="FALCULTY">
+            <p>faulcity of medicine</p> --> -->
+
+        <!-- </div>
+    </div>
+
+ </section>
+ <!-- contact -->
+  <!-- <section class="contacts">
+    <h2>CONTACT US</h2>
+    <p>E-mail:lasuth111@gmail.com </p>
+    <p>phone: +2348033357646</p>
+    <p>address: ikeja</p> -->
+<!-- 
+  </section> -->
+<!-- footer -->
+ <!-- <footer>
+    <p>&copy;2025 lagos state university of medicineand teaching. All right reserved</p>
+ </footer> --> -->
+      -->
+    
+<!--     
+</body>
+</html> -->
